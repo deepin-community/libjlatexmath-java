@@ -1,0 +1,74 @@
+Source: libjlatexmath-java
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends:
+ debhelper (>= 11~),
+ default-jdk,
+ junit4,
+ libbatik-java,
+ libbuild-helper-maven-plugin-java (>= 3.0.0),
+ libfop-java,
+ libxmlgraphics-commons-java,
+ maven-debian-helper (>= 2.1)
+Standards-Version: 4.2.1
+Vcs-Browser: https://salsa.debian.org/java-team/libjlatexmath-java
+Vcs-Git: https://salsa.debian.org/java-team/libjlatexmath-java.git
+Homepage: https://github.com/opencollab/jlatexmath
+
+Package: libjlatexmath-java
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Description: Implementation of LaTeX math mode wrote in Java
+ JLaTeXmath library provides a set of Java classes for displaying (complex)
+ mathematical formulas as part of a Java application. Some use cases are:
+  - Displaying text with embedded formulas (in an editor pane, a JavaHelp
+    page, ...)
+  - Make a combo box which provides the user with a choice between various
+    formulas.
+  - Have a slider with ticks that display their values not as decimal numbers,
+    but as exact values, e.g., fractions, square roots or any combination of
+    these.
+  - Display the formula together with the graph of a function.
+
+# Package: libjlatexmath-java-doc
+# Architecture: all
+# Section: doc
+# Depends: ${misc:Depends}
+# Suggests: libjlatexmath
+# Description: Implementation of LaTeX math mode wrote in Java
+#  JLaTeXmath library provides a set of Java classes for displaying (complex)
+#  mathematical formulas as part of a Java application. Some use cases are:
+#   - Displaying text with embedded formulas (in an editor pane, a JavaHelp
+#     page, ...)
+#   - Make a combo box which provides the user with a choice between various
+#     formulas.
+#   - Have a slider with ticks that display their values not as decimal numbers,
+#     but as exact values, e.g., fractions, square roots or any combination of
+#     these.
+#   - Display the formula together with the graph of a function.
+#  .
+#  This package contains the Javadoc API documentation.
+
+Package: libjlatexmath-fop-java
+Architecture: all
+Depends:
+ fop,
+ libjlatexmath-java,
+ ${java:Depends},
+ ${misc:Depends}
+Suggests: libjlatexmath-java-doc
+Description: Implementation of LaTeX math mode wrote in Java (fop plugin)
+ JLaTeXmath library provides a set of Java classes for displaying (complex)
+ mathematical formulas as part of a Java application. Some use cases are:
+  - Displaying text with embedded formulas (in an editor pane, a JavaHelp
+    page, ...)
+  - Make a combo box which provides the user with a choice between various
+    formulas.
+  - Have a slider with ticks that display their values not as decimal numbers,
+    but as exact values, e.g., fractions, square roots or any combination of
+    these.
+  - Display the formula together with the graph of a function.
+ .
+  This package contains the fop plugin.

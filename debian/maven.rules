@@ -1,0 +1,9 @@
+
+org.scilab.forge jlatexmath-example-export jar s/.*/debian/ * *
+org.scilab.forge jlatexmath-example-giws jar s/.*/debian/ * *
+org.scilab.forge jlatexmath-font-cyrillic jar s/.*/debian/ * *
+org.scilab.forge jlatexmath-font-greek jar s/.*/debian/ * *
+org.scilab.forge jlatexmath-fop jar s/.*/debian/ * *
+org.scilab.forge jlatexmath-ignore pom s/.*/debian/ * *
+org.scilab.forge jlatexmath-parent pom s/.*/debian/ * *
+org.scilab.forge jlatexmath jar s/.*/debian/ * *

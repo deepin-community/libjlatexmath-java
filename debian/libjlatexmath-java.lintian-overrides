@@ -1,0 +1,4 @@
+# They are fonts
+libjlatexmath-java: codeless-jar usr/share/java/jlatexmath-example-export.jar
+libjlatexmath-java: codeless-jar usr/share/java/jlatexmath-font-cyrillic.jar
+libjlatexmath-java: codeless-jar usr/share/java/jlatexmath-font-greek.jar

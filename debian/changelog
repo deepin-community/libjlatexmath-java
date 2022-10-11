@@ -1,0 +1,161 @@
+libjlatexmath-java (1.0.7-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ tony mancill ]
+  * Add junit4 to build-deps (Closes: #915891)
+
+  [ Emmanuel Bourg ]
+  * Removed the get-orig-source target in debian/rules
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 13 Dec 2018 16:10:25 +0100
+
+libjlatexmath-java (1.0.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Point Vcs-fields to Java team to match Maintainer team
+  * debhelper 11
+  * cme fix dpkg-control
+  * Standards-Version: 4.2.1
+  * Depends: ${java:Depends}
+
+ -- Andreas Tille <tille@debian.org>  Tue, 25 Sep 2018 08:28:11 +0200
+
+libjlatexmath-java (1.0.7-1) unstable; urgency=medium
+
+  [ Felix Natter ]
+  * Moved the package to Git
+
+  [ Sylvestre Ledru ]
+  * New upstream release (and imported in the git repo)
+  * Package moved to salsa
+  * Standards-Version: 4.1.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 18 Apr 2018 08:28:25 +0200
+
+libjlatexmath-java (1.0.6-1) unstable; urgency=medium
+
+  * New upstream release
+  * Standards-Version: 4.1.1
+  * Update the homepage
+  * Move to maven
+  * Disable the generation of doc package
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 29 Oct 2017 19:42:46 +0100
+
+libjlatexmath-java (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Standards-Version updated to 3.9.5
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 09 Feb 2014 19:28:59 +0100
+
+libjlatexmath-java (1.0.2-1) unstable; urgency=low
+
+  * Upload to unstable
+  * Standards-Version updated to 3.9.4
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 27 May 2013 14:24:03 +0200
+
+libjlatexmath-java (1.0.2-1~exp1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 03 Apr 2013 07:58:47 +0200
+
+libjlatexmath-java (1.0.1-1~exp1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 25 Feb 2013 15:30:01 +0100
+
+libjlatexmath-java (1.0.0-1~exp1) experimental; urgency=low
+
+  * New upstream release
+  * Standards-Version updated to 3.9.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 24 Sep 2012 16:50:24 +0200
+
+libjlatexmath-java (0.9.7-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 19 Dec 2011 22:24:07 +0100
+
+libjlatexmath-java (0.9.6-2) unstable; urgency=low
+
+  [ Giovanni Mascellani ]
+  * Also compile class WebStartAlphabetRegistration.
+
+  [ Sylvestre Ledru ]
+  * debian-rules-uses-deprecated-makefile fixed
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 08 Dec 2011 21:30:51 +0100
+
+libjlatexmath-java (0.9.6-1) unstable; urgency=low
+
+  * New upstream release
+  * classpathManifest.diff removed (applied upstream)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 08 May 2011 19:57:45 +0200
+
+libjlatexmath-java (0.9.5-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-Version updated to version 3.9.2
+  * needless-dependency-on-jre fixed
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 07 May 2011 23:33:40 +0200
+
+libjlatexmath-java (0.9.4-3) unstable; urgency=low
+
+  * watch file updated
+  * Repack script added
+  * Switch to dpkg-source 3.0 (quilt) format
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 08 Feb 2011 14:04:38 +0100
+
+libjlatexmath-java (0.9.4-2) unstable; urgency=low
+
+  * Upload in unstable
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 06 Feb 2011 15:32:30 +0100
+
+libjlatexmath-java (0.9.4-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 03 Feb 2011 10:30:44 +0100
+
+libjlatexmath-java (0.9.3-1) experimental; urgency=low
+
+  * New upstream release
+  * Standards-Version updated to version 3.9.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 12 Sep 2010 13:44:53 +0200
+
+libjlatexmath-java (0.8.9-1) unstable; urgency=low
+
+  * New upstream release
+  * This release introduces a new package (a jlatexmath plugin for fop)
+  * Standards-Version updated to version 3.8.4
+  * enableJavaDoc.diff removed (applied upstream)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 12 Feb 2010 11:19:24 +0100
+
+libjlatexmath-java (0.8.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Update of the Homepage field.
+  * Repacking script removed
+  * watch file desactivated for now
+  * enableJavaDoc.diff applied upstream
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 23 Dec 2009 15:50:24 +0100
+
+libjlatexmath-java (0.5-1) unstable; urgency=low
+
+  * Initial Release (Closes: #554868)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 29 Sep 2009 11:14:53 +0200
+

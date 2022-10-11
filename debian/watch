@@ -1,0 +1,2 @@
+version=3
+https://github.com/opencollab/jlatexmath/tags .*/(?:.*?)([\d\.]+)\.tar\.gz
